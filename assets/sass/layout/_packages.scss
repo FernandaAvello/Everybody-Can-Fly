@@ -1,0 +1,94 @@
+.main__package {
+  text-align: center;
+  background-color: $primary-color;
+  color: #fff;
+  margin-top: 4rem;
+  padding: 0 5rem;
+  .package__h1 {
+    font-family: $font-family-header;
+    font-size: 3rem;
+    padding-top: 3rem;
+  }
+  .package__h2 {
+    font-family: $font-family;
+    font-size: 1.5rem;
+    margin-top: 5rem;
+  }
+  .package__description {
+    text-align: justify;
+  }
+  .package__images {
+    display: flex;
+    justify-content: space-around;
+    margin: 6rem 0;
+  }
+  .package__image {
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+  }
+  .tokyo {
+    @include background('../img/Tokyo.jpg');
+  }
+  .nara {
+    @include background('../img/nara.jpg');
+  }
+  .kyoto {
+    @include background('../img/kyoto.jpg');
+  }
+  .roma {
+    @include background('../img/roma.jpg');
+  }
+  .lagocomo {
+    @include background('../img/lagocomo.webp');
+  }
+  .venecia {
+    @include background('../img/venecia.jpeg');
+  }
+  .bangkok {
+    @include background('../img/bangkok.webp');
+  }
+  .phuket {
+    @include background('../img/phuket.jpg');
+  }
+  .krabi {
+    @include background('../img/krabi.jpg');
+  }
+  .atenas {
+    @include background('../img/atenas.jpg');
+  }
+  .santorini {
+    @include background('../img/santorini.webp');
+  }
+  .mikonos {
+    @include background('../img/mikonos.jpg');
+  }
+}
+@media (max-width: 1199px) {
+.row__japan, .row__tailand {
+  flex-direction: column-reverse
+  }
+}
+@media (max-width: 650px) {
+  .main__package {
+    padding: 0 2rem;
+    .package__h1 {
+      font-size: 2rem;
+    }
+    .package__h2 {
+      margin-top: 2rem;
+    }
+    .package__image {
+      height: 8rem;
+      width: 8rem;
+    }
+  }
+}
+@media (max-width: 376px) {
+  .main__package {
+    .package__image {
+      height: 5rem;
+      width: 5rem;
+    }
+  }
+}

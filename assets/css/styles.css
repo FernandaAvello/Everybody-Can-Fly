@@ -1,0 +1,304 @@
+@import url("../bootstrap/css/bootstrap.min.css");
+@import url("https://fonts.googleapis.com");
+@import url("https://fonts.gstatic.com");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&family=WindSong&display=swap");
+.navbar {
+  background-color: transparent;
+}
+
+.nav-item {
+  margin: 0 2rem;
+}
+
+.header {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  height: 38rem;
+}
+.header .header__section {
+  color: white;
+  margin-top: 10rem;
+  text-align: center;
+  position: relative;
+}
+.header .header__h1 {
+  font-family: "WindSong", cursive;
+  font-weight: 400;
+  font-size: 3.5rem;
+}
+.header .header__text {
+  font-size: 1.5rem;
+}
+
+.header:before {
+  content: "";
+  background-image: url("../img/header-image.jpg");
+  background-color: 0, 0, 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(60%);
+  opacity: 0.7;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  position: absolute;
+}
+
+@media (max-width: 576px) {
+  .header .header__text {
+    display: none;
+  }
+  .header .header__h1 {
+    font-size: 2rem;
+  }
+}
+.main__destination {
+  text-align: center;
+}
+.main__destination .destination__h1 {
+  font-family: "WindSong", cursive;
+  font-size: 3rem;
+  margin-top: 3rem;
+}
+.main__destination .destination__carousel {
+  margin-top: 3rem;
+}
+.main__destination .card-img-top {
+  border-radius: 5%;
+  height: 22rem;
+  width: 26rem;
+}
+
+@media (max-width: 992px) {
+  .main__destination .destination__h1 {
+    font-size: 2rem;
+  }
+  .main__destination .destination__carousel {
+    display: flex;
+  }
+  .main__destination .card-img-top {
+    height: 15rem;
+    width: 20rem;
+  }
+}
+.main__package {
+  text-align: center;
+  background-color: #7C96AB;
+  color: #fff;
+  margin-top: 4rem;
+  padding: 0 5rem;
+}
+.main__package .package__h1 {
+  font-family: "WindSong", cursive;
+  font-size: 3rem;
+  padding-top: 3rem;
+}
+.main__package .package__h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  margin-top: 5rem;
+}
+.main__package .package__description {
+  text-align: justify;
+}
+.main__package .package__images {
+  display: flex;
+  justify-content: space-around;
+  margin: 6rem 0;
+}
+.main__package .package__image {
+  height: 12rem;
+  width: 12rem;
+  border-radius: 50%;
+}
+.main__package .tokyo {
+  background-image: url("../img/Tokyo.jpg");
+  background-color: "";
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main__package .nara {
+  background-image: url("../img/nara.jpg");
+  background-color: "";
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main__package .kyoto {
+  background-image: url("../img/kyoto.jpg");
+  background-color: "";
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main__package .roma {
+  background-image: url("../img/roma.jpg");
+  background-color: "";
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main__package .lagocomo {
+  background-image: url("../img/lagocomo.webp");
+  background-color: "";
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main__package .venecia {
+  background-image: url("../img/venecia.jpeg");
+  background-color: "";
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main__package .bangkok {
+  background-image: url("../img/bangkok.webp");
+  background-color: "";
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main__package .phuket {
+  background-image: url("../img/phuket.jpg");
+  background-color: "";
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main__package .krabi {
+  background-image: url("../img/krabi.jpg");
+  background-color: "";
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main__package .atenas {
+  background-image: url("../img/atenas.jpg");
+  background-color: "";
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main__package .santorini {
+  background-image: url("../img/santorini.webp");
+  background-color: "";
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main__package .mikonos {
+  background-image: url("../img/mikonos.jpg");
+  background-color: "";
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 1199px) {
+  .row__japan, .row__tailand {
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 650px) {
+  .main__package {
+    padding: 0 2rem;
+  }
+  .main__package .package__h1 {
+    font-size: 2rem;
+  }
+  .main__package .package__h2 {
+    margin-top: 2rem;
+  }
+  .main__package .package__image {
+    height: 8rem;
+    width: 8rem;
+  }
+}
+@media (max-width: 376px) {
+  .main__package .package__image {
+    height: 5rem;
+    width: 5rem;
+  }
+}
+.form {
+  height: 100vh;
+}
+.form .form__contact {
+  display: flex;
+  padding: 5rem;
+  text-align: center;
+}
+.form .form__contact__box {
+  border: 2px solid #7C96AB;
+  border-radius: 5%;
+  padding: 2.8rem;
+}
+.form .form__h1 {
+  font-family: "WindSong", cursive;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+.form .form__image {
+  background-image: url("../img/form-image.jpg");
+  background-color: "";
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  height: 100vh;
+}
+
+@media (max-width: 1199px) {
+  .form {
+    height: 75vh;
+  }
+  .form .form__image {
+    display: none;
+  }
+  .form .form__contact {
+    padding: 2rem;
+    justify-content: center;
+  }
+  .form .form__contact__box {
+    padding: 2rem 0rem;
+  }
+  .form .form__h1 {
+    font-size: 2rem;
+  }
+  .form .form__text {
+    font-size: 12px;
+  }
+}
+.footer {
+  background-color: #7C96AB;
+  color: white;
+  height: 12rem;
+}
+.footer .footer__socials {
+  text-align: center;
+}
+.footer .socials__icon {
+  height: 3rem;
+  width: 3rem;
+  padding: 0 10px;
+}
+.footer .footer__terms {
+  font-size: 10px;
+  margin: 0;
+  opacity: 0.5;
+}
+
+.btn {
+  background-color: #7C96AB;
+  border-color: #7C96AB;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: large;
+  display: block;
+}
+
+/*# sourceMappingURL=styles.css.map */

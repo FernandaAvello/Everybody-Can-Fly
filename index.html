@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ECF</title>
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Servicios</a>
+            </li>
+            <a class="navbar-brand" href="#">Everybody can fly</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-section">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="header__section">
+      <p class="header__text">Sumérgete en una aventura de ensueño</p>
+      <h1 class="header__h1">Descubre destinos únicos y vive momentos inolvidables</h1>
+    </section>
+  </header>
+  <section class="main__destination" id="services">
+    <h1 class="destination__h1">Nuestros destinos</h1>
+    <section class="destination__carousel">
+      <!--Carrusel-->
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <!--Seccion 1-->
+        <div class="carousel-inner">
+          <div class="carousel-item active " data-bs-interval="0">
+            <div class="d-flex justify-content-center">
+              <!--Card 1-->
+                <div class="card mx-2 text-center border-0">
+                  <img src="assets/img/japan.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <div class="d-grid">
+                      <button class="btn" type="button">Tokyo, Japón</button>
+                    </div>
+                  </div>
+                </div>
+              <!--Card 2-->
+                <div class="card mx-2 text-center border-0">
+                  <img src="assets/img/italia.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <div class="d-grid gap-2">
+                      <button class="btn" type="button">Roma, Italia</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Seccion 2-->
+          <div class="carousel-item" data-bs-interval="0">
+            <div class="d-flex justify-content-center">
+              <!--Card 3-->
+                <div class="card mx-2 text-center border-0">
+                  <img src="assets/img/tailandia.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <div class="d-grid gap-2">
+                      <button class="btn" type="button">Phuket, Tailandia</button>
+                    </div>
+                  </div>
+                </div>
+              <!--Card 4-->
+                <div class="card mx-2 text-center border-0">
+                  <img src="assets/img/grecia.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <div class="d-grid gap-2">
+                      <button class="btn" type="button">Santorini, Grecia</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+  </section>
+
+  <section class="main__package">
+    <div class="container">
+      <h1 class="package__h1">Paquetes Turísticos</h1>
+      <div class="row row__japan" >
+        <div class="col-xl-6 col-lg-12 package__images">
+          <div class="package__image tokyo"></div>
+          <div class="package__image nara"></div>
+          <div class="package__image kyoto"></div>
+        </div>
+        <div class="col-xl-6 col-lg-12">
+          <h2 class="package__h2">Circuito Japonés Tokyo/Nara/Kyoto</h2>
+          <p class="package__description">Este paquete es una emocionante aventura por las ciudades más icónicas de Japón. En Tokio, podrás visitar el Templo Sensoji, el Mercado Tsukiji y el famoso cruce de Shibuya. El viaje continúa hacia Nara, la antigua capital de Japón. Aquí, puedes visitar el Templo Todaiji y el Parque de Nara, hogar de cientos de ciervos sagrados.
+            El viaje concluye en Kyoto, la ciudad de los templos. Puedes disfrutar de la belleza del Templo de Kiyomizu-dera, el Templo de Oro, el Bosque de Bambú de Arashiyama. </p>
+        </div>
+      </div>
+      <hr>
+      <div class="row row__italy">
+        <div class="col-xl-6 col-lg-12">
+          <h2 class="package__h2">Circuito Italiano Roma/Lago di Como/Venecia</h2>
+          <p class="package__description">En este paquete podrá visitar  algunos de los lugares más emblemáticos de Italia. En Roma, la ciudad eterna, podrás visitar el Coliseo, el Vaticano y la Fontana di Trevi. El viaje continúa hacia el Lago di Como, podrás pasear en barco por el lago, visitar las villas históricas y disfrutar de la exquisita comida local.
+            Finalmente Venecia, ciudad de los canales y los puentes, disfrutarás de un paseo en góndola y podrás visitar la impresionante Plaza de San Marcos y el Palacio Ducal.  </p>
+        </div>
+        <div class="col-xl-6 col-lg-12 package__images">
+          <div class="package__image roma"></div>
+          <div class="package__image lagocomo"></div>
+          <div class="package__image venecia"></div>
+        </div>
+      </div>
+      <hr>
+      <div class="row row__tailand">
+        <div class="col-xl-6 col-lg-12 package__images">
+          <div class="package__image bangkok"></div>
+          <div class="package__image phuket"></div>
+          <div class="package__image krabi"></div>
+        </div>
+        <div class="col-xl-6 col-lg-12">
+          <h2 class="package__h2">Circuito Tailandés Bangkok/Phuket/Krabi</h2>
+          <p class="package__description"> Este paquete incluye los destinos turísticos más populares de Tailandia. En Bangkok, podrás visitar los templos budistas más famosos del mundo, como el Templo del Buda de Esmeralda y el Templo del Amanecer. El viaje continúa a Phuket, una isla con playas de arena blanca y el agua cristalina del mar de Andamán.
+            Concluimos en Krabi, una región costera famosa por sus espectaculares formaciones rocosas y sus hermosas playas, donde podrás hacer kayak en las cuevas de manglares.
+          </p>
+        </div>
+      </div>
+      <hr>
+      <div class="row row__greece">
+        <div class="col-xl-6 col-lg-12">
+          <h2 class="package__h2">Circuito Greco Atenas/Santorini/Mikonos</h2>
+          <p class="package__description">En este paquete podrás vivir una gran aventura por algunas de las islas más famosas de Grecia. En Atenas, visitarás algunos de los monumentos más famosos del mundo, como la Acrópolis, el Partenón y el Templo de Zeus. El viaje continúa hacia Santorini, podrás disfrutar de la playa de arena negra en Perissa, visitar los antiguos sitios arqueológicos y disfrutar de la puesta de sol en Oia.
+              Terminamos en Mikonos, famosa por su animada vida nocturna, podrás visitar la playa de Psarou y disfrutar de la fiesta en los bares y clubes de la playa de Paradise.</p>
+        </div>
+        <div class="col-xl-6 col-lg-12 package__images">
+          <div class="package__image atenas"></div>
+          <div class="package__image santorini"></div>
+          <div class="package__image mikonos"></div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="form" id="contact-section">
+    <div class="row">
+      <div class="col-xl-6 form__image"></div>
+      <div class="col-xl-6 col-lg-12 form__contact">
+        <div class="form__contact__box">
+          <p class="form__text">¿Tienes dudas?¿Necesitas información?</p>
+          <h1 class="form__h1">¡Contáctanos!</h1>
+          <div class="row g-4 container justify-content-center">
+            <div class="col-12">
+              <input type="text" class="form-control" placeholder="Tu nombre" aria-label="First name">
+            </div>
+            <div class="col-12">
+              <input type="text" class="form-control" placeholder="Tu teléfono" aria-label="Phone">
+            </div>
+            <div class="col-12">
+              <input type="email" class="form-control" placeholder="Tu email" aria-label="Email">
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control h-5" rows="4" id="floatingTextarea" required>Tu mensaje</textarea>
+            </div>
+            <div class="col-2">
+              <button type="submit" class="btn form__button">Enviar</button>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="row container-fluid">
+      <div class="footer__socials mt-5">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="socials__icon bi bi-facebook" viewBox="0 0 16 16">
+          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="socials__icon bi bi-twitter" viewBox="0 0 16 16">
+          <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="socials__icon bi bi-instagram" viewBox="0 0 16 16">
+          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+        </svg>
+        <p>Visita nuestras redes sociales</p>
+        <p class="footer__terms">Terms of use Privacy Policy</p>
+        <p class="footer__terms">M. Fernanda Avello 2023</p>
+    </div>
+  </footer>
+<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/scripts.js"></script>
+</body>
+</html>

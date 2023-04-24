@@ -1,0 +1,30 @@
+.main__destination {
+  text-align: center;
+  .destination__h1 {
+    font-family: $font-family-header;
+    font-size: 3rem;
+    margin-top: 3rem;
+  }
+  .destination__carousel {
+    margin-top: 3rem;
+  }
+  .card-img-top {
+    border-radius: 5%;
+    height: 22rem;
+    width: 26rem;
+  }
+}
+@media (max-width: 992px) {
+  .main__destination {
+    .destination__h1 {
+      font-size: 2rem;
+    }
+    .destination__carousel {
+      display: flex;
+    }
+    .card-img-top {
+      height: 15rem;
+      width: 20rem;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.form {
+  height: 100vh;
+  .form__contact {
+    display: flex;
+    padding: 5rem;
+    text-align: center;
+  }
+  .form__contact__box {
+    border: 2px solid $primary-color;
+    border-radius: 5%;
+    padding: 2.8rem;
+  }
+  .form__h1 {
+    font-family: $font-family-header;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+  }
+  .form__image {
+    @include background('../img/form-image.jpg');
+    opacity: .8;
+    height: 100vh;
+  }
+}
+@media (max-width: 1199px) {
+  .form {
+    height: 75vh;
+    .form__image {
+      display: none;
+    }
+    .form__contact {
+      padding: 2rem;
+      justify-content: center;
+    }
+    .form__contact__box {
+      padding: 2rem 0rem;
+    }
+    .form__h1 {
+      font-size: 2rem;
+    }
+    .form__text {
+      font-size: 12px;
+    }
+  }
+}

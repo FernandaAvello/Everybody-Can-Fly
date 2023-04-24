@@ -1,0 +1,18 @@
+.footer {
+  background-color: $primary-color;
+  color: white;
+  height: 12rem;
+  .footer__socials {
+    text-align: center;
+  }
+  .socials__icon {
+    height: 3rem;
+    width: 3rem;
+    padding: 0 10px;
+  }
+  .footer__terms {
+    font-size: 10px;
+    margin: 0;
+    opacity: .5;
+  }
+}
