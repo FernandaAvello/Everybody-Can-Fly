@@ -40,70 +40,42 @@
       <h1 class="header__h1">Descubre destinos únicos y vive momentos inolvidables</h1>
     </section>
   </header>
-  <section class="main__destination" id="services">
+
+  <section class="main__destination container" id="services">
     <h1 class="destination__h1">Nuestros destinos</h1>
-    <section class="destination__carousel">
-      <!--Carrusel-->
-      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-        <!--Seccion 1-->
-        <div class="carousel-inner">
-          <div class="carousel-item active " data-bs-interval="0">
-            <div class="d-flex justify-content-center">
-              <!--Card 1-->
-                <div class="card mx-2 text-center border-0">
-                  <img src="assets/img/japan.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <div class="d-grid">
-                      <button class="btn" type="button">Tokyo, Japón</button>
-                    </div>
-                  </div>
-                </div>
-              <!--Card 2-->
-                <div class="card mx-2 text-center border-0">
-                  <img src="assets/img/italia.webp" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <div class="d-grid gap-2">
-                      <button class="btn" type="button">Roma, Italia</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--Seccion 2-->
-          <div class="carousel-item" data-bs-interval="0">
-            <div class="d-flex justify-content-center">
-              <!--Card 3-->
-                <div class="card mx-2 text-center border-0">
-                  <img src="assets/img/tailandia.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <div class="d-grid gap-2">
-                      <button class="btn" type="button">Phuket, Tailandia</button>
-                    </div>
-                  </div>
-                </div>
-              <!--Card 4-->
-                <div class="card mx-2 text-center border-0">
-                  <img src="assets/img/grecia.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <div class="d-grid gap-2">
-                      <button class="btn" type="button">Santorini, Grecia</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+    <section class="destination__cards row">
+      <div class="destination__card col-lg-6 col-md-12 card__japan">
+        <img src="assets/img/japan.jpg" alt="image" class="card__image">
+        <div class="destination__textbox">
+          <p class="text head">Japón</p>
+          <span>SLC - JPN (Tokyo, Aeropuerto Narita) </span>
+          <p class="text price">Desde $999.999</p>
+        </div>
+      </div>
+      <div class="destination__card col-lg-6 col-md-12 card__italy">
+        <img src="assets/img/italia.webp" alt="image" class="card__image">
+        <div class="destination__textbox">
+          <p class="text head">Italia</p>
+          <span>SLC - ITA (Roma, Aeropuerto Fiumicino)</span>
+          <p class="text price">Desde $889.999</p>
+        </div>
+      </div>
+    <section class="destination__cards row"></section>
+      <div class="destination__card col-lg-6 col-md-12 card__tailand">
+        <img src="assets/img/tailandia.jpg" alt="image" class="card__image">
+        <div class="destination__textbox">
+          <p class="text head">Tailandia</p>
+          <span>SLC - TAI (Bangkok, Aeropuerto Suvarnabhumi)</span>
+          <p class="text price">Desde $769.999</p>
+        </div>
+      </div>
+      <div class="destination__card col-lg-6 col-md-12  card__greece">
+        <img src="assets/img/grecia.jpg" alt="image" class="card__image">
+        <div class="destination__textbox">
+          <p class="text head">Grecia</p>
+          <span>SLC - GRE (Atenas, Aeropuerto Eleftherios)</span>
+          <p class="text price">Desde $1.024.999</p>
+        </div>
       </div>
     </section>
   </section>
@@ -195,6 +167,7 @@
       </div>
     </div>
   </section>
+
   <footer class="footer">
     <div class="row container-fluid">
       <div class="footer__socials mt-5">

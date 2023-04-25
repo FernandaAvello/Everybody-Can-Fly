@@ -3,28 +3,78 @@
   .destination__h1 {
     font-family: $font-family-header;
     font-size: 3rem;
+    margin: 3rem 0;
+  }
+  .destination__cards {
+    justify-content: space-evenly;
     margin-top: 3rem;
   }
-  .destination__carousel {
-    margin-top: 3rem;
+  .destination__card {
+    height: 20rem;
+    width: 25rem;
+    background: lightblue;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: 0.2s ease-in-out;
   }
-  .card-img-top {
-    border-radius: 5%;
-    height: 22rem;
-    width: 26rem;
+  .card__image {
+    border-radius: 15px;
+    height: 19rem;
+    width: 24rem;
+    position: absolute;
+    transition: 0.2s ease-in-out;
+    z-index: 1;
+  }
+  .destination__textbox {
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    transition: 0.2s ease-in-out;
+    z-index: 2;
+  }
+  .destination__textbox > .text {
+    font-weight: bold;
+  }
+  .destination__textbox > .head {
+    font-size: 30px;
+  }
+  .destination__textbox > .price {
+    font-size: 17px;
+  }
+  .destination__textbox > span {
+    font-size: 26px;
+    color: white;
+  }
+  .destination__card:hover > .destination__textbox {
+    opacity: 1;
+  }
+  .destination__card:hover > .card__image {
+    height: 35%;
+    filter: blur(10px) grayscale(2);
+    animation: anim 3s infinite;
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 650px) {
   .main__destination {
     .destination__h1 {
       font-size: 2rem;
     }
-    .destination__carousel {
-      display: flex;
+  }
+}
+@media (max-width: 992px) {
+  .main__destination {
+    .destination__cards {
+      margin-top: 0;
     }
-    .card-img-top {
-      height: 15rem;
-      width: 20rem;
+    .destination__card {
+      margin-bottom: 2rem;
     }
   }
 }
